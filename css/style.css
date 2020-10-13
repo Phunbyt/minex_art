@@ -252,6 +252,11 @@ footer {
     pointer-events: none;
 }
 
+.hero-item {
+    /* background-color: red; */
+    width: 80%;
+}
+
 .hero-text {
     display: flex;
     flex-direction: column;
@@ -625,6 +630,13 @@ footer {
         width: 55%;
     }
     /* queries for the about page */
+    .hero-item {
+        width: 60%;
+    }
+    .hero-text {
+        width: 100%;
+        font-size: 1.2em;
+    }
     .skills {
         margin-top: 1em;
         display: flex;
@@ -770,8 +782,11 @@ footer {
     .craft h1 {
         width: 55%;
     }
-    .hero-text {
+    .hero-item {
         width: 40%;
+    }
+    .hero-text {
+        width: 100%;
         font-size: 1.2em;
     }
     .work-packs {
@@ -796,7 +811,7 @@ footer {
     .craft h1 {
         width: 50%;
     }
-    .hero-text {
+    .hero-item {
         width: 30%;
     }
 }
